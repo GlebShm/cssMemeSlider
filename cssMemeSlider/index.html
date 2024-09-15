@@ -8,22 +8,29 @@
   </head>
   <body>
     <div class="slider">
+      <input type="radio" name="slide" id="img1" checked />
+      <input type="radio" name="slide" id="img2" />
+      <input type="radio" name="slide" id="img3" />
+      <input type="radio" name="slide" id="img4" />
       <div class="images">
-        <input type="radio" name="slide" id="img1" checked/>
-        <input type="radio" name="slide" id="img2" />
-        <input type="radio" name="slide" id="img3" />
-        <input type="radio" name="slide" id="img4" />
-
-        <img src="./1.jpg" alt="img1" class="pic1 slide"/>
-        <img src="./2.jpg" alt="img2" class="pic2 slide"/>
-        <img src="./3.jpg" alt="img3" class="pic3 slide"/>
-        <img src="./4.jpg" alt="img4" class="pic4 slide"/>
+        <img src="./1.jpg" alt="img1" class="pic1 slide" />
+        <img src="./2.jpg" alt="img2" class="pic2 slide" />
+        <img src="./3.jpg" alt="img3" class="pic3 slide" />
+        <img src="./4.jpg" alt="img4" class="pic4 slide" />
       </div>
-      <div class="dots">
-        <label for="img1"></label>
-        <label for="img2"></label>
-        <label for="img3"></label>
-        <label for="img4"></label>
+      <div class="container">
+        <div class="text__container">
+          <p class="text text__one">1 картинка Телекомпания</p>
+          <p class="text text__two">2 картинка Фильм</p>
+          <p class="text text__three">3 картинка Каневский</p>
+          <p class="text text__four">4 картинка Хомяк</p>
+        </div>
+        <div class="dots">
+          <label for="img1"><span></span></label>
+          <label for="img2"><span></span></label>
+          <label for="img3"><span></span></label>
+          <label for="img4"><span></span></label>
+        </div>
       </div>
     </div>
   </body>
